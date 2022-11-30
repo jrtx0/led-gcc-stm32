@@ -178,12 +178,8 @@ $(BUILD_DIR):
 #######################################
 # openocd update
 #######################################
-OPENOCD_ROOT = /c/OpenOCD/share/openocd/
-OPENOCD_INTERFACE = cmsis-dap.cfg
-TARGET = LED
-
-update:
-	openocd -f $(OPENOCD_ROOT)/scripts/board/stm32yt32m1.cfg -c "program build/LED.elf verify reset exit"
+flash:
+	openocd -f stm32yt32m1.cfg -c "program build/LED.elf verify reset exit"
 
 #######################################
 # clean up
