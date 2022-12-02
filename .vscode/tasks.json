@@ -29,10 +29,10 @@
         },
         {
             "type": "shell",
-            "label": "make_update",
+            "label": "make_flash",
             "command": "make",
             "args": [
-                "update"
+                "flash"
             ],
             "problemMatcher": [
                 "$gcc"
