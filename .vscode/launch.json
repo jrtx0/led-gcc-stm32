@@ -14,7 +14,7 @@
             "svdFile": "STM32F103xx.svd",
             "servertype": "openocd",
             "configFiles": [
-                "C:/OpenOCD/share/openocd/scripts/board/stm32yt32m1.cfg"
+                "stm32yt32m1.cfg"
             ]
         }
     ]
